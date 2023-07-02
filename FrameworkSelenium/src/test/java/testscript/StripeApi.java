@@ -36,6 +36,7 @@ public void launchMagneto() throws InterruptedException {
 	
 	HomePage homePage = new HomePage(driver);
 	homePage.loginStripeApi();
+	// Hello world
 	
 	}
 
