@@ -1,0 +1,3 @@
+StripeURL = https://dashboard.stripe.com/test/customers
+Name = Girish
+LastName = Sarode

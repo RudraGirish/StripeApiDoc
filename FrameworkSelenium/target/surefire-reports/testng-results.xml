@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-06T17:15:35 IST" name="Command line suite" finished-at="2023-05-06T17:16:31 IST" duration-ms="55543">
+    <groups>
+    </groups>
+    <test started-at="2023-05-06T17:15:35 IST" name="Command line test" finished-at="2023-05-06T17:16:31 IST" duration-ms="55543">
+      <class name="frameworklibrary.BaseTest">
+        <test-method is-config="true" signature="setProperty()[pri:0, instance:frameworklibrary.BaseTest@2d1ef81a]" started-at="2023-05-06T17:15:35 IST" name="setProperty" finished-at="2023-05-06T17:15:37 IST" duration-ms="1196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setProperty -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:frameworklibrary.BaseTest@2d1ef81a]" started-at="2023-05-06T17:16:29 IST" name="afterTest" finished-at="2023-05-06T17:16:31 IST" duration-ms="1771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- frameworklibrary.BaseTest -->
+      <class name="testscript.LoginTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testscript.LoginTest@4c402120]" started-at="2023-05-06T17:15:37 IST" name="beforeClass" finished-at="2023-05-06T17:15:37 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@4c402120]" started-at="2023-05-06T17:15:37 IST" name="beforeMethod" finished-at="2023-05-06T17:15:57 IST" duration-ms="19891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginMethod()[pri:0, instance:testscript.LoginTest@4c402120] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginMethod()[pri:0, instance:testscript.LoginTest@4c402120]" started-at="2023-05-06T17:15:57 IST" name="loginMethod" finished-at="2023-05-06T17:16:04 IST" duration-ms="7638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.LoginTest@4c402120]" started-at="2023-05-06T17:16:04 IST" name="afterMethod" finished-at="2023-05-06T17:16:06 IST" duration-ms="1493" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginMethod status=SUCCESS method=LoginTest.loginMethod()[pri:0, instance:testscript.LoginTest@4c402120] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testscript.LoginTest@4c402120]" started-at="2023-05-06T17:16:06 IST" name="afterClass" finished-at="2023-05-06T17:16:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testscript.LoginTest -->
+      <class name="testscript.RegistrationTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testscript.RegistrationTest@327514f]" started-at="2023-05-06T17:16:06 IST" name="beforeClass" finished-at="2023-05-06T17:16:06 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testscript.RegistrationTest@327514f]" started-at="2023-05-06T17:16:06 IST" name="beforeMethod" finished-at="2023-05-06T17:16:12 IST" duration-ms="5969" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegistrationTest.SecondRegistration()[pri:0, instance:testscript.RegistrationTest@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="SecondRegistration()[pri:0, instance:testscript.RegistrationTest@327514f]" started-at="2023-05-06T17:16:12 IST" name="SecondRegistration" finished-at="2023-05-06T17:16:20 IST" duration-ms="8527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondRegistration -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.RegistrationTest@327514f]" started-at="2023-05-06T17:16:20 IST" name="afterMethod" finished-at="2023-05-06T17:16:21 IST" duration-ms="542" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SecondRegistration status=SUCCESS method=RegistrationTest.SecondRegistration()[pri:0, instance:testscript.RegistrationTest@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testscript.RegistrationTest@327514f]" started-at="2023-05-06T17:16:21 IST" name="beforeMethod" finished-at="2023-05-06T17:16:25 IST" duration-ms="3683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=RegistrationTest.firstRegistration()[pri:0, instance:testscript.RegistrationTest@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="firstRegistration()[pri:0, instance:testscript.RegistrationTest@327514f]" started-at="2023-05-06T17:16:25 IST" name="firstRegistration" finished-at="2023-05-06T17:16:28 IST" duration-ms="3744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstRegistration -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.RegistrationTest@327514f]" started-at="2023-05-06T17:16:28 IST" name="afterMethod" finished-at="2023-05-06T17:16:29 IST" duration-ms="956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstRegistration status=SUCCESS method=RegistrationTest.firstRegistration()[pri:0, instance:testscript.RegistrationTest@327514f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testscript.RegistrationTest@327514f]" started-at="2023-05-06T17:16:29 IST" name="afterClass" finished-at="2023-05-06T17:16:29 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testscript.RegistrationTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
