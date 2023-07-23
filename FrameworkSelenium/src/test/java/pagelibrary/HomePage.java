@@ -18,7 +18,9 @@ public class HomePage {
 	WebDriverWait wait;
 	JavascriptExecutor js;
 	
-	@FindBy(xpath ="//img[@alt='Decathlon']") public WebElement logo;   
+	@FindBy(id ="email") public WebElement userName;   
+	@FindBy(id ="old-password") public WebElement password;
+	@FindBy(xpath ="//img[@alt='Decathlon']") public WebElement clickButton;
 	
 
 	public HomePage(WebDriver driver){
